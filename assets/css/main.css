@@ -18,7 +18,10 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	scroll-behavior: smooth;
+}
+	
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1590,6 +1593,17 @@ input, select, textarea {
 			width: 13em;
 			height:13em;
 			border-radius: 100%;
+			object-fit: cover;
+			
+			
+		}
+
+		.image img:hover {
+		transform: translateY(-2px);
+    	box-shadow: 3px 3px 10px black;
+    	transform: scale(1.1);
+		transition: ease-out 0.6s;
+    	opacity: 0.9;
 		}
 
 		.image.fit {
@@ -1616,6 +1630,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+			
 		}
 
 /* Button */
@@ -2043,6 +2058,14 @@ input, select, textarea {
 				border: solid 3px #fff;
 			}
 
+			.wrapper.style4{
+				background-color: #1d1d1d;
+			}
+
+			.wrapper.style4 .title{
+				background-color: #1d1d1d;
+				color:#ffffff;
+			}
 /* Page Wrapper */
 
 	#page-wrapper > section {
@@ -2066,7 +2089,6 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/banner.jpg") center center;
 		background-size: cover;
 		padding: 0;
 	}
@@ -2082,8 +2104,34 @@ input, select, textarea {
 		}
 
 		.homepage #header {
-			height: 60em;
+			height: 65em;
 		}
+
+		#showcase .more {
+			border: none;
+			bottom: 0;
+			color: white;
+			font-size: 1.6rem;
+			height: 8.5em;
+			left: 50%;
+			letter-spacing: 0.225em;
+			margin-left: -8em;
+			opacity: 1;
+			outline: 0;
+			position: absolute;
+			text-align: center;
+			text-transform: uppercase;
+			width: 16em;
+			z-index: 3000;
+			text-decoration: none;
+		}
+		
+		#showcase .more:hover{
+		background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+		  -webkit-background-clip: text;
+		  -webkit-text-fill-color: transparent;
+		}
+		
 
 
 
@@ -2333,7 +2381,7 @@ background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%
 		 .slide-track{
 			 display:flex;
 			 width: 2847px;
-			 animation: scroll 60s linear infinite;
+			 animation: scroll 80s linear infinite;
 		 }
 		 
 		 
@@ -2359,15 +2407,16 @@ background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%
 		 }
 		 
 		 /* GRADIENT SHADOWS */
+		 /* Client*/
 		 
 		 .slider::before,
 		 .slider::after {
-			 background: linear-gradient(to right, #181818  0%,
-			 rgba(25,25,25,0) 60%);
+			 background: linear-gradient(to right, #1d1d1d  0%,
+			 rgba(29,29,29,0) 80%);
 			 content: '';
 			 height: 100%;
 			 position: absolute;
-			 width:20%;
+			 width:22%;
 			 z-index: 2;
 		 }
 		 
@@ -2382,12 +2431,47 @@ background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%
 			 transform: rotateZ(180deg);
 		 }
 
+		 /* awards*/
+
+		 .slider-3::before,
+		 .slider-3::after {
+			 background: linear-gradient(to right, #181818  0%,
+			 rgba(25,25,25,0) 80%);
+			 content: '';
+			 height: 100%;
+			 position: absolute;
+			 width:22%;
+			 z-index: 2;
+		 }
+		 
+		 .slider-3::before{
+			 left:0;
+			 top:0;
+		 }
+		 
+		 .slider-3::after{
+			 right:0;
+			 top:0;
+			 transform: rotateZ(180deg);
+		 }
+
+		 .slider-3{
+			height: 15em;
+			margin: auto; 
+			position: relative;
+			width:90%;
+			display: grid;
+			place-items: center;
+			overflow: hidden;
+		 }
+
+
 /* Main */
 
 /* Footer */
 
 	#footer {
-		background: #1d1d1d url("images/overlay.png");
+		background: #181818 url("images/overlay.png");
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 6em;
@@ -2454,7 +2538,7 @@ background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%
 			}
 
 		#footer .title {
-			background: #1d1d1d url("images/overlay.png");
+			background: #181818 url("images/overlay.png");
 			color: #eee;
 		}
 
@@ -2993,6 +3077,10 @@ background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%
 
 				.homepage #header {
 					height: 20em;
+				}
+
+				#showcase .more{
+					display:none;
 				}
 
 		/* Logo */
