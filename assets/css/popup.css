@@ -252,3 +252,8 @@
 .my-mfp-slide-bottom.mfp-removing.mfp-bg {
 	opacity: 0;
 }
+
+.simple-ajax-popup-align-top{
+	height: 400px;
+	width: 600px;
+}

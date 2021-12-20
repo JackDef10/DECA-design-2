@@ -61,14 +61,14 @@
 				<section id="intro" class="wrapper style1">
 					<div class="title" id="about-section">About Us</div>
 					<div id="intro-container">
-						<div class="flex-space">
+						<div class="flex-space" data-aos="fade-right" data-aos-once="false">
 							<p class="style2">
 								WHO WE ARE
 							</p>
 							<p class="style3"><strong>DECA</strong>, part of the Brand Advance Group, was established by <strong>Christopher Kenna</strong> to provide brands with the ability to communicate with
 								all communities in an authentic way, with cultural respect. <br><br>Helping brands to stand shoulder to shoulder with their customers, Diversity Media Consultancy, we leverage diversity media landscape, for the benefit of brands and the communities that they serve.</p>
 						</div>
-						<div class="flex-space">
+						<div class="flex-space" data-aos="fade-left" data-aos-once="false">
 							<p class="style2">
 								WHAT WE DO
 							</p>
@@ -79,10 +79,10 @@
 								impact studies, helping your organisation to grasp the foremost market opportunity.</p>
 								<ul class="actions" id="intro-buttons">
 									<li><a href="#contact" class="button style3 large">Contact us</a></li>
-									<li><a href="#" class="button style3 large">Case studies</a></li>
+									<li><a href="Case-studies.html" class="button style3 large">Case studies</a></li>
 							</ul>
 						</div>
-						<div class="flex-space">
+						<div class="flex-space" data-aos="fade-right" data-aos-once="false">
 							<p class="style2">
 									MEET THE TEAM
 							</p>
@@ -90,7 +90,10 @@
 							<p class="style3"><strong>The Brand Advance Group</strong> which started in 2018 by <strong>Christopher Kenna</strong>, and now includes 
 									services across 8 companies, 100+ Staff across 4 countries.</p>
 									<ul class="actions" id="intro-buttons">
-										<li><a href="#contact" class="button style3 large">Learn more</a></li>
+										<li><a href="meet-team.html" data-mfp-src="#test-popup" class="button style3 large open-popup-link">Learn more</a></li>
+										<div id="test-popup" class="white-popup mfp-hide">
+											<iframe src="meet-team.html" width="800px" height="800px" frameborder="0"></iframe>
+										</div>
 								</ul>
 						</div>
 					</div>
@@ -595,6 +598,11 @@
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 			<script src="assets/js/popup-text.js"></script>
-
+			<script>
+				$('.open-popup-link').magnificPopup({
+  type:'inline',
+  midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+});
+			</script>
 	</body>
 </html>

@@ -51,6 +51,8 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	overflow: scroll;
+	margin: 20em 40em;
 }
 
 mark {
@@ -78,6 +80,9 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		width: 80%;
+		height: 80%;
+		overflow: scroll;
 	}
 
 	*, *:before, *:after {
@@ -102,6 +107,7 @@ input, select, textarea {
 		font-size: 14pt;
 		line-height: 1.75em;
 		letter-spacing: 0.025em;
+		width: 50%;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2768,13 +2774,6 @@ background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%
 				margin-right: auto;
 			}
 
-			.highlight{
-				font-size: 1.6em;
-				line-height: 1.6em;
-				letter-spacing: 0.1em;
-				text-align: center;
-			}
-
 		/* Footer */
 
 			#footer .feature-list {
@@ -3216,22 +3215,3 @@ background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%
 						}
 
 	}
-
-	.white-popup {
-		position: relative;
-		background: transparent;
-		padding: 20px;
-		width: auto;
-		max-width: 45em;
-		max-height:75em;
-		margin: 0 auto;
-	  }
-
-	  .avatar{
-		  max-width:50%;
-	  }
-
-	  #more{
-		  display: none;
-	  }
-	
