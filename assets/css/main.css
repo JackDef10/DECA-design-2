@@ -1598,6 +1598,25 @@ input, select, textarea {
 			
 		}
 
+		.insights img {
+			display: block;
+			width: 18em;
+			height: 15em;
+			object-fit: cover;
+			margin: 0 auto;
+			
+			
+		}
+
+		.case-study img{
+			display: block;
+			width: 50em;
+			height: auto;
+			object-fit: cover;
+			margin: 0 auto;
+			padding-bottom: 3em;
+		}
+
 		.image img:hover {
 		transform: translateY(-2px);
     	box-shadow: 3px 3px 10px black;
@@ -2038,6 +2057,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background: #1d1d1d;
+			
 		}
 
 			.wrapper.style2 .title {
@@ -2052,10 +2072,6 @@ input, select, textarea {
 			.wrapper.style3 .title {
 				background: #181818 url("images/overlay.png");
 				color: #ffffff;
-			}
-
-			.wrapper.style3 .image {
-				border: solid 3px #fff;
 			}
 
 			.wrapper.style4{
@@ -2100,7 +2116,7 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color:#1d1d1d;
+			background-color:#181818;
 		}
 
 		.homepage #header {
@@ -2155,18 +2171,19 @@ input, select, textarea {
 		line-height: 1.5em;
 		top: 1em;
 		margin: 2.76em;
-		z-index: 5000;
+		z-index: 3000;
 	}
 	#logo strong{
 		font-size: 1.8em;
 	}
 
 	.deca-logo{
-		position: fixed;
-		width:10%;
+		display:block;
+		position: relative;
+		top:1em;
+		left:-5em;
+		width:10em;
 		height: auto;
-		left: 10em;
-		top:2em;
 		z-index: 6000;
 	}
 		
@@ -2342,7 +2359,7 @@ background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%
 
 		#intro p.style3 {
 			font-size: 1.1em;
-			width: 48em;
+			width: 75em;
 			margin: 0 auto;
 			padding-bottom:2em;
 			text-align: left;
@@ -2606,6 +2623,16 @@ background: -webkit-linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%
 			}
 
 /* XLarge */
+
+@media screen and (max-width: 1980px) {
+
+	/* Basic */
+	.wrapper {
+		padding: 4em 0em 7em 0em;
+	}
+		
+
+}
 
 	@media screen and (max-width: 1680px) {
 

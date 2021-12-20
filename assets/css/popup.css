@@ -7,6 +7,7 @@
 	margin: 40px auto;
 	position: relative;
 	font-size: 1.2em;
+	line-height: 2em;
 }
 
 #feature-1 {
@@ -17,6 +18,7 @@
 	margin: 40px auto;
 	position: relative;
 	font-size: 1.2em;
+	line-height: 2em;
 }
 
 #feature-2 {
@@ -27,6 +29,7 @@
 	margin: 40px auto;
 	position: relative;
 	font-size: 1.2em;
+	line-height: 2em;
 }
 
 #feature-3 {
@@ -37,6 +40,7 @@
 	margin: 40px auto;
 	position: relative;
 	font-size: 1.2em;
+	line-height: 2em;
 }
 
 #feature-4 {
@@ -47,6 +51,7 @@
 	margin: 40px auto;
 	position: relative;
 	font-size: 1.2em;
+	line-height: 2em;
 }
 
 #feature-5 {
@@ -57,6 +62,7 @@
 	margin: 40px auto;
 	position: relative;
 	font-size: 1.2em;
+	line-height: 2em;
 }
 
 #feature-6 {
@@ -67,6 +73,7 @@
 	margin: 40px auto;
 	position: relative;
 	font-size: 1.2em;
+	line-height: 2em;
 }
 
 #feature-7 {
@@ -77,6 +84,7 @@
 	margin: 40px auto;
 	position: relative;
 	font-size: 1.2em;
+	line-height: 2em;
 }
 
 #feature-8 {
@@ -87,6 +95,7 @@
 	margin: 40px auto;
 	position: relative;
 	font-size: 1.2em;
+	line-height: 2em;
 }
 
 #feature-9 {
@@ -97,6 +106,7 @@
 	margin: 40px auto;
 	position: relative;
 	font-size: 1.2em;
+	line-height: 2em;
 }
 
 #feature-10 {
@@ -107,6 +117,7 @@
 	margin: 40px auto;
 	position: relative;
 	font-size: 1.2em;
+	line-height: 2em;
 }
 
 #feature-11 {
@@ -117,6 +128,7 @@
 	margin: 40px auto;
 	position: relative;
 	font-size: 1.2em;
+	line-height: 2em;
 }
 
 /**
@@ -149,7 +161,7 @@
 	-moz-transform: scale(1); 
 	-ms-transform: scale(1); 
 	-o-transform: scale(1); 
-	transform: scale(1); 
+	transform: scale(1);
 }
 
 /* animate out */
