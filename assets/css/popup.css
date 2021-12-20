@@ -2,84 +2,122 @@
 #small-dialog {
 	background: rgb(22, 22, 22);
 	padding: 3em;
-	text-align: left;
-	max-width: 70%;
+	text-align: center;
+	max-width: 80%;
 	margin: 40px auto;
 	position: relative;
+	font-size: 1.2em;
 }
 
 #feature-1 {
 	background: rgb(22, 22, 22);
 	padding: 3em;
-	text-align: left;
-	max-width: 70%;
+	text-align: center;
+	max-width: 80%;
 	margin: 40px auto;
 	position: relative;
+	font-size: 1.2em;
 }
 
 #feature-2 {
 	background: rgb(22, 22, 22);
 	padding: 3em;
-	text-align: left;
-	max-width: 70%;
+	text-align: center;
+	max-width: 80%;
 	margin: 40px auto;
 	position: relative;
+	font-size: 1.2em;
 }
 
 #feature-3 {
 	background: rgb(22, 22, 22);
 	padding: 3em;
-	text-align: left;
-	max-width: 70%;
+	text-align: center;
+	max-width: 80%;
 	margin: 40px auto;
 	position: relative;
+	font-size: 1.2em;
 }
 
 #feature-4 {
 	background: rgb(22, 22, 22);
 	padding: 3em;
-	text-align: left;
-	max-width: 70%;
+	text-align: center;
+	max-width: 80%;
 	margin: 40px auto;
 	position: relative;
+	font-size: 1.2em;
 }
 
 #feature-5 {
 	background: rgb(22, 22, 22);
 	padding: 3em;
-	text-align: left;
-	max-width: 70%;
+	text-align: center;
+	max-width: 80%;
 	margin: 40px auto;
 	position: relative;
+	font-size: 1.2em;
 }
 
 #feature-6 {
 	background: rgb(22, 22, 22);
 	padding: 3em;
-	text-align: left;
-	max-width: 70%;
+	text-align: center;
+	max-width: 80%;
 	margin: 40px auto;
 	position: relative;
+	font-size: 1.2em;
 }
 
 #feature-7 {
 	background: rgb(22, 22, 22);
 	padding: 3em;
-	text-align: left;
-	max-width: 70%;
+	text-align: center;
+	max-width: 80%;
 	margin: 40px auto;
 	position: relative;
+	font-size: 1.2em;
 }
 
 #feature-8 {
 	background: rgb(22, 22, 22);
 	padding: 3em;
-	text-align: left;
-	max-width: 70%;
+	text-align: center;
+	max-width: 80%;
 	margin: 40px auto;
 	position: relative;
+	font-size: 1.2em;
 }
 
+#feature-9 {
+	background: rgb(22, 22, 22);
+	padding: 3em;
+	text-align: center;
+	max-width: 80%;
+	margin: 40px auto;
+	position: relative;
+	font-size: 1.2em;
+}
+
+#feature-10 {
+	background: rgb(22, 22, 22);
+	padding: 3em;
+	text-align: center;
+	max-width: 80%;
+	margin: 40px auto;
+	position: relative;
+	font-size: 1.2em;
+}
+
+#feature-11 {
+	background: rgb(22, 22, 22);
+	padding: 3em;
+	text-align: center;
+	max-width: 80%;
+	margin: 40px auto;
+	position: relative;
+	font-size: 1.2em;
+}
 
 /**
  * Fade-zoom animation for first dialog
