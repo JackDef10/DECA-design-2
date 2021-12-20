@@ -8,6 +8,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/popup.css">
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -23,9 +25,9 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li class="current"><a href="index.html"><strong>H</strong>ome</a></li>
+								<li class="current"><a href="#header"><strong>H</strong>ome</a></li>
 								<li>
-									<a href="#"><strong>S</strong>ervices</a>
+									<a href="#services-section"><strong>S</strong>ervices</a>
 									<ul>
 										<li><a href="#">Diversity Creative Audit</a></li>
 										<li><a href="#">Diversity Creative Brief & Process</a></li>
@@ -41,10 +43,9 @@
 										<li><a href="#">Diversity Return On Investment</a></li>
 									</ul>
 								</li>
-								<li><a href="left-sidebar.html" class= "nav-text"><strong>A</strong>bout us</a></li>
-								<li><a href="right-sidebar.html"><strong>C</strong>ase studies</a></li>
-								<li><a href="no-sidebar.html"><strong>O</strong>ur insights</a></li>
-								<li><a href="no-sidebar.html"><strong>M</strong>eet the team</a></li>
+								<li><a href="#about-section" class= "nav-text"><strong>A</strong>bout us</a></li>
+								<li><a href="Case-studies.html"><strong>C</strong>ase studies</a></li>
+								<li><a href="Insights.html"><strong>O</strong>ur insights</a></li>
 							</ul>
 						</nav>
 						<div id="showcase">
@@ -57,78 +58,162 @@
 
 			<!-- Intro -->
 				<section id="intro" class="wrapper style1">
-					<div class="title">About Us</div>
-					<div class="container">
-						<p class="style2">
-							WHAT WE DO
-						</p>
-						<p class="style3"><strong>DECA</strong> is about moving from awareness to brand action. 
-							DECA improves your organisation’s understanding of the commercial value of <strong>diversity</strong>
-							and ensures that DECA is applied throughout all of your media and business processes.
-							<br><br>This is achieved by conducting tangible diversity <strong>ROI</strong>(return on investment) 
-							impact studies, helping your organisation to grasp the foremost market opportunity.</p>
+					<div class="title" id="about-section">About Us</div>
+					<div id="intro-container">
+						<div class="intro-para-1">
 							<p class="style2">
-								WHO WE ARE
+								WHAT WE DO
 							</p>
-							<p class="style3"><strong>DECA</strong>, part of the Brand Advance Group, was established by <strong>Christopher Kenna</strong> to provide brands with the ability to communicate with 
-								all communities in an authentic way, with cultural respect. <br><br>Helping brands to stand shoulder to shoulder with their customers, Diversity Media Consultancy, we leverage diversity media landscape, for the benefit of brands and the communities that they serve.</p>
-						<ul class="actions">
-							<li><a href="#contact" class="button style3 large">Contact us</a></li>
-							<li><a href="#" class="button style3 large">Case studies</a></li>
+							<p class="style3"><strong>DECA</strong> is about moving from awareness to brand action.
+								DECA improves your organisation’s understanding of the commercial value of <strong>diversity</strong>
+								and ensures that DECA is applied throughout all of your media and business processes.
+								<br><br>This is achieved by conducting tangible diversity <strong>ROI</strong>(return on investment)
+								impact studies, helping your organisation to grasp the foremost market opportunity.</p>
+						</div>
+							<div class="intro-para-2">
+								<p class="style2">
+									MEET THE TEAM
+								</p>
+								<img class="chris-svg" src="images/DECA Website Assets/Chris-graphic.png">
+								<p class="style3"><strong>The Brand Advance Group</strong> which started in 2018 by <strong>Christopher Kenna</strong>, and now includes 
+									services across 8 companies, 100+ Staff across 4 countries.</p>
+							</div>
+							<div class="intro-para-3">
+								<p class="style2">
+									WHO WE ARE
+								</p>
+								<p class="style3"><strong>DECA</strong>, part of the Brand Advance Group, was established by <strong>Christopher Kenna</strong> to provide brands with the ability to communicate with
+									all communities in an authentic way, with cultural respect. <br><br>Helping brands to stand shoulder to shoulder with their customers, Diversity Media Consultancy, we leverage diversity media landscape, for the benefit of brands and the communities that they serve.</p>
+									<ul class="actions" id="intro-buttons">
+										<li><a href="#contact" class="button style3 large">Contact us</a></li>
+										<li><a href="#" class="button style3 large">Case studies</a></li>
+									</ul>
+							</div>
+						<ul class="actions" id="intro-buttons">
+							<li><a href="#contact" class="button style3 large">Find out more</a></li>
 						</ul>
 					</div>
 				</section>
 
 			<!-- Main -->
 				<section id="main" class="wrapper style2">
-					<div class="title">Services</div>
+					<div class="title" id="services-section">Services</div>
 					<div class="container">
-					
+						<!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+
+						<div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+							<h1><strong>WHAT IS IT?</strong></h1>
+							<h2>Identifying which demographics have been underrepresented in your brand’s creative content.</h2>
+							<p>DECA will conduct an in-depth analysis of your brand’s creative content delivered over the last year, including an exploration of creative recommendations.<br>
+								Helping brands to understand who they currently represent and what diverse communities think and feel about the brands creative. Key messaging by community and potential blind spots prevention. This analysis will also inform the baseline review.</p>
+							<h2><strong>Benefits of the report</strong></h2>
+							<p>Maximise consumer loyalty and new business through inclusive content
+								Understanding of historic and current positioning within the market</p>
+
+						</div>
+						<div id="feature-1" class="zoom-anim-dialog mfp-hide">
+							<h1><strong>WHAT IS IT?</strong></h1>
+							<h2>Ensuring there is diversity behind the camera as well as in front of it.</h2>
+							<p>DECA consultants will undertake an assessment of the communications brief and creative process to highlight possible areas for improvement to make sure that diversity is the central focus.</p>
+							<h2><strong>Benefits of the report</strong></h2>
+							<p>Empower teams to build on current positive processes
+								Remove processes and barriers that hinder inclusion.</p>
+						</div>
+						<div id="feature-1" class="zoom-anim-dialog mfp-hide">
+							<h1><strong>WHAT IS IT?</strong></h1>
+							<h2>Ensuring there is diversity behind the camera as well as in front of it.</h2>
+							<p>DECA consultants will undertake an assessment of the communications brief and creative process to highlight possible areas for improvement to make sure that diversity is the central focus.</p>
+							<h2><strong>Benefits of the report</strong></h2>
+							<p>Empower teams to build on current positive processes
+								Remove processes and barriers that hinder inclusion.</p>
+						</div>
+						<div id="feature-1" class="zoom-anim-dialog mfp-hide">
+							<h1><strong>WHAT IS IT?</strong></h1>
+							<h2>Ensuring there is diversity behind the camera as well as in front of it.</h2>
+							<p>DECA consultants will undertake an assessment of the communications brief and creative process to highlight possible areas for improvement to make sure that diversity is the central focus.</p>
+							<h2><strong>Benefits of the report</strong></h2>
+							<p>Empower teams to build on current positive processes
+								Remove processes and barriers that hinder inclusion.</p>
+						</div>
+						<div id="feature-1" class="zoom-anim-dialog mfp-hide">
+							<h1><strong>WHAT IS IT?</strong></h1>
+							<h2>Ensuring there is diversity behind the camera as well as in front of it.</h2>
+							<p>DECA consultants will undertake an assessment of the communications brief and creative process to highlight possible areas for improvement to make sure that diversity is the central focus.</p>
+							<h2><strong>Benefits of the report</strong></h2>
+							<p>Empower teams to build on current positive processes
+								Remove processes and barriers that hinder inclusion.</p>
+						</div>
+						<div id="feature-1" class="zoom-anim-dialog mfp-hide">
+							<h1><strong>WHAT IS IT?</strong></h1>
+							<h2>Ensuring there is diversity behind the camera as well as in front of it.</h2>
+							<p>DECA consultants will undertake an assessment of the communications brief and creative process to highlight possible areas for improvement to make sure that diversity is the central focus.</p>
+							<h2><strong>Benefits of the report</strong></h2>
+							<p>Empower teams to build on current positive processes
+								Remove processes and barriers that hinder inclusion.</p>
+						</div>
+						<div id="feature-1" class="zoom-anim-dialog mfp-hide">
+							<h1><strong>WHAT IS IT?</strong></h1>
+							<h2>Ensuring there is diversity behind the camera as well as in front of it.</h2>
+							<p>DECA consultants will undertake an assessment of the communications brief and creative process to highlight possible areas for improvement to make sure that diversity is the central focus.</p>
+							<h2><strong>Benefits of the report</strong></h2>
+							<p>Empower teams to build on current positive processes
+								Remove processes and barriers that hinder inclusion.</p>
+						</div>
 
 						<!-- Features -->
 							<section id="features">
 								<header class="style1">
 									<h2 data-aos="fade-down" data-aos-once="false">HELPING BRANDS REACH <strong>DIVERSE</strong> AUDIENCE IS WHAT WE DO</h2>
-									<p data-aos="fade-down" data-aos-once="false">Click to find out more</p>
+									<p data-aos="fade-down" data-aos-once="false">See how our services can enable brands to understand what diverse communities think, and how to best reach them.</p>
 								</header>
 								<div class="row aln-center" data-aos="fade-down" data-aos-once="false">
 									<div class="col-3 col-12-medium">
 										<section class="highlight">
-											<a href="#" class="image featured"><img src="/images/pexels-bestbe-models-2170387.jpg" alt="" /></a>
-											<h3><a href="#">Diversity Creative Audit</a></h3>
+											<a href="#small-dialog" class="image featured popup-with-zoom-anim"><img src="images/pexels-bestbe-models-2170387.jpg" alt="" /></a>
+											<h3><a href="#small-dialog" class="image featured popup-with-zoom-anim">Diversity Creative Audit</a></h3>
 											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
 											<ul class="actions">
-												<li><a href="#" class="button style1">Learn More</a></li>
+												<li><a href="#small-dialog" class="button style1 popup-with-zoom-anim">Learn More</a></li>
 											</ul>
 										</section>
 									</div>
 									<div class="col-3 col-12-medium">
 										<section class="highlight">
-											<a href="#" class="image featured"><img src="images/pexels-manjeet-singh-yadav-1162983.jpg" alt="" /></a>
-											<h3><a href="#">Diversity Creative Brief & Process</a></h3>
-											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, et magna feugiat laoreet vel velit lorem.</p>
+											<a href="#feature-1" class="image featured popup-with-zoom-anim"><img src="images/pexels-manjeet-singh-yadav-1162983.jpg" alt="" /></a>
+											<h3><a href="#feature-1" class="image featured popup-with-zoom-anim">Diversity Creative Brief & Process</a></h3>
+											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, et magna feugiat laoreet vel velit lorem.<br><br></p>
 											<ul class="actions">
-												<li><a href="#" class="button style1">Learn More</a></li>
+												<li><a href="#feature-1" class="button style1 popup-with-zoom-anim">Learn More</a></li>
 											</ul>
 										</section>
 									</div>
 									<div class="col-3 col-12-medium">
 										<section class="highlight">
-											<a href="#" class="image featured"><img src="images/pexels-cottonbro-5083397.jpg" alt="" /></a>
-											<h3><a href="#">DECA Baseline Report</a></h3>
+											<a href="#feature-1" class="image featured popup-with-zoom-anim"><img src="images/pexels-cottonbro-5083397.jpg" alt="" /></a>
+											<h3><a href="#feature-1" class="image featured popup-with-zoom-anim">DECA Baseline Report</a></h3>
 											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
 											<ul class="actions">
-												<li><a href="#" class="button style1">Learn More</a></li>
+												<li><a href="#feature-1" class="button style1 popup-with-zoom-anim">Learn More</a></li>
 											</ul>
 										</section>
 									</div>
 									<div class="col-3 col-12-medium">
 										<section class="highlight">
-											<a href="#" class="image featured"><img src="images/pexels-vladislav-vasnetsov-2354073.jpg" alt="" /></a>
-											<h3><a href="#">Adtech Diagnostics Review</a></h3>
+											<a href="#feature-1" class="image featured popup-with-zoom-anim"><img src="images/pexels-vladislav-vasnetsov-2354073.jpg" alt="" /></a>
+											<h3><a href="#feature-1" class="image featured popup-with-zoom-anim">Adtech Diagnostics Review</a></h3>
 											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
 											<ul class="actions">
-												<li><a href="#" class="button style1">Learn More</a></li>
+												<li><a href="#feature-1" class="button style1 popup-with-zoom-anim">Learn More</a></li>
+											</ul>
+										</section>
+									</div>
+									<div class="col-3 col-12-medium">
+										<section class="highlight">
+											<a href="#feature-1" class="image featured popup-with-zoom-anim"><img src="images/pexels-pixabay-161183.jpg" alt="" /></a>
+											<h3><a href="#feature-1" class="image featured popup-with-zoom-anim">Organisational Barriers Overview</a></h3>
+											<p>Eget mattis at, laoreet vel et velit aliquam  magna feugiat laoreet vel velit lorem.diam ante,  et magna feugiat laoreet vel velit lorem.</p>
+											<ul class="actions">
+												<li><a href="#feature-1" class="button style1 popup-with-zoom-anim">Learn More</a></li>
 											</ul>
 										</section>
 									</div>
@@ -136,41 +221,51 @@
 								<div class="row aln-center" data-aos="fade-right" data-aos-once="false">
 									<div class="col-3 col-12-medium">
 										<section class="highlight">
-											<a href="#" class="image featured"><img src="images/pexels-pixabay-161183.jpg" alt="" /></a>
-											<h3><a href="#">Organisational Barriers Overview</a></h3>
-											<p>Eget mattis at, laoreet vel et velit aliquam diam ante,  et magna feugiat laoreet vel velit lorem.</p>
-											<ul class="actions">
-												<li><a href="#" class="button style1">Learn More</a></li>
-											</ul>
-										</section>
-									</div>
-									<div class="col-3 col-12-medium">
-										<section class="highlight">
-											<a href="#" class="image featured"><img src="images/pexels-cottonbro-4098148.jpg" alt="" /></a>
-											<h3><a href="#">Diversity Dividend Training</a></h3>
+											<a href="#feature-1" class="image featured popup-with-zoom-anim"><img src="images/pexels-cottonbro-4098148.jpg" alt="" /></a>
+											<h3><a href="#feature-1" class="image featured popup-with-zoom-anim">Diversity Dividend Training</a></h3>
 											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
 											<ul class="actions">
-												<li><a href="#" class="button style1">Learn More</a></li>
+												<li><a href="#feature-1" class="button style1 popup-with-zoom-anim">Learn More</a></li>
 											</ul>
 										</section>
 									</div>
 									<div class="col-3 col-12-medium">
 										<section class="highlight">
-											<a href="#" class="image featured"><img src="images/pexels-irwan-bajang-97230.jpg" alt="" /></a>
-											<h3><a href="#">Diversity Media Review</a></h3>
+											<a href="#feature-1" class="image featured popup-with-zoom-anim"><img src="images/pexels-irwan-bajang-97230.jpg" alt="" /></a>
+											<h3><a href="#feature-1" class="image featured popup-with-zoom-anim">Diversity Media Review</a></h3>
 											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
 											<ul class="actions">
-												<li><a href="#" class="button style1">Learn More</a></li>
+												<li><a href="#feature-1" class="button style1 popup-with-zoom-anim">Learn More</a></li>
 											</ul>
 										</section>
 									</div>
 									<div class="col-3 col-12-medium">
 										<section class="highlight">
-											<a href="#" class="image featured"><img src="images/pexels-matheus-bertelli-3321793.jpg" alt="" /></a>
-											<h3><a href="#">Diversity Keynote Event</a></h3>
+											<a href="#feature-1" class="image featured popup-with-zoom-anim"><img src="images/pexels-matheus-bertelli-3321793.jpg" alt="" /></a>
+											<h3><a href="#feature-1" class="image featured popup-with-zoom-anim">Diversity Keynote Event</a></h3>
 											<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
 											<ul class="actions">
-												<li><a href="#" class="button style1">Learn More</a></li>
+												<li><a href="#feature-1" class="button style1 popup-with-zoom-anim">Learn More</a></li>
+											</ul>
+										</section>
+									</div>
+									<div class="col-3 col-12-medium">
+										<section class="highlight">
+											<a href="#feature-1" class="image featured popup-with-zoom-anim"><img src="images/pexels-john-paul-garanzo-2907013.jpg" alt="" /></a>
+											<h3><a href="#feature-1" class="image featured popup-with-zoom-anim">Keyword Blocklist Report</a></h3>
+											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
+											<ul class="actions">
+												<li><a href="#feature-1" class="button style1 popup-with-zoom-anim">Learn More</a></li>
+											</ul>
+										</section>
+									</div>
+									<div class="col-3 col-12-medium">
+										<section class="highlight">
+											<a href="#feature-1" class="image featured popup-with-zoom-anim"><img src="images/pexels-david-kuko-2780015.jpg" alt="" /></a>
+											<h3><a href="#feature-1" class="image featured popup-with-zoom-anim">Brand Diversity Perception Overview</a></h3>
+											<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
+											<ul class="actions">
+												<li><a href="#feature-1" class="button style1 popup-with-zoom-anim">Learn More</a></li>
 											</ul>
 										</section>
 									</div>
@@ -178,41 +273,21 @@
 								<div class="row aln-center" data-aos="fade-left" data-aos-once="false">
 									<div class="col-3 col-12-medium">
 										<section class="highlight">
-											<a href="#" class="image featured"><img src="images/pexels-john-paul-garanzo-2907013.jpg" alt="" /></a>
-											<h3><a href="#">Keyword Blocklist Report</a></h3>
+											<a href="#feature-1" class="image featured popup-with-zoom-anim"><img src="images/pexels-burak-kebapci-187041.jpg" alt="" /></a>
+											<h3><a href="#feature-1" class="image featured popup-with-zoom-anim">DECA Investment Plan</a></h3>
 											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
 											<ul class="actions">
-												<li><a href="#" class="button style1">Learn More</a></li>
+												<li><a href="#feature-1" class="button style1 popup-with-zoom-anim">Learn More</a></li>
 											</ul>
 										</section>
 									</div>
 									<div class="col-3 col-12-medium">
 										<section class="highlight">
-											<a href="#" class="image featured"><img src="images/pexels-david-kuko-2780015.jpg" alt="" /></a>
-											<h3><a href="#">Brand Diversity Perception Overview</a></h3>
-											<p>Eget mattis at, laoreet vel et velit, aliquet sit amet et magna feugiat laoreet vel velit lorem.</p>
-											<ul class="actions">
-												<li><a href="#" class="button style1">Learn More</a></li>
-											</ul>
-										</section>
-									</div>
-									<div class="col-3 col-12-medium">
-										<section class="highlight">
-											<a href="#" class="image featured"><img src="images/pexels-burak-kebapci-187041.jpg" alt="" /></a>
-											<h3><a href="#">DECA Investment Plan</a></h3>
+											<a href="#feature-1" class="image featured popup-with-zoom-anim"><img src="images/pexels-mikhail-nilov-6592644.jpg" alt="" /></a>
+											<h3><a href="#feature-1" class="image featured popup-with-zoom-anim">Diversity Return On Investment</a></h3>
 											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
 											<ul class="actions">
-												<li><a href="#" class="button style1">Learn More</a></li>
-											</ul>
-										</section>
-									</div>
-									<div class="col-3 col-12-medium">
-										<section class="highlight">
-											<a href="#" class="image featured"><img src="images/pexels-mikhail-nilov-6592644.jpg" alt="" /></a>
-											<h3><a href="#">Diversity Return On Investment</a></h3>
-											<p>Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate et magna feugiat laoreet vel velit lorem.</p>
-											<ul class="actions">
-												<li><a href="#" class="button style1">Learn More</a></li>
+												<li><a href="#feature-1" class="button style1 popup-with-zoom-anim">Learn More</a></li>
 											</ul>
 										</section>
 									</div>
@@ -308,9 +383,6 @@
 								   <img src="./images/DECA Website Assets/Client logos/GSK Logo.png">
 							   </div>
 							   <div class="slide">
-								   <img src="./images/DECA Website Assets/Client logos/Unilever logo.png">
-							   </div>
-							   <div class="slide">
 								   <img src="./images/DECA Website Assets/Client logos/ationwide-logo-png-vector-nationwide-bank-logo-11563216764nqljguuqod.png">
 							   </div>
 							   <div class="slide">
@@ -329,9 +401,6 @@
 								<img src="./images/DECA Website Assets/Client logos/GSK Logo.png">
 							</div>
 							<div class="slide">
-								<img src="./images/DECA Website Assets/Client logos/Unilever logo.png">
-							</div>
-							<div class="slide">
 								<img src="./images/DECA Website Assets/Client logos/ationwide-logo-png-vector-nationwide-bank-logo-11563216764nqljguuqod.png">
 							</div>
 							<div class="slide">
@@ -348,9 +417,6 @@
 							</div>
 							<div class="slide">
 								<img src="./images/DECA Website Assets/Client logos/GSK Logo.png">
-							</div>
-							<div class="slide">
-								<img src="./images/DECA Website Assets/Client logos/Unilever logo.png">
 							</div>
 							<div class="slide">
 								<img src="./images/DECA Website Assets/Client logos/ationwide-logo-png-vector-nationwide-bank-logo-11563216764nqljguuqod.png">
@@ -480,6 +546,43 @@
         	once: true,
       		});
     		</script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+			<script>
+				$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+			
+					fixedContentPos: false,
+					fixedBgPos: true,
+			
+					overflowY: 'auto',
+			
+					closeBtnInside: true,
+					preloader: false,
+					
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+				});
+			
+				$('.popup-with-move-anim').magnificPopup({
+					type: 'inline',
+			
+					fixedContentPos: false,
+					fixedBgPos: true,
+			
+					overflowY: 'auto',
+			
+					closeBtnInside: true,
+					preloader: false,
+					
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-slide-bottom'
+				});
+			});
+			</script>
 
 	</body>
 </html>
